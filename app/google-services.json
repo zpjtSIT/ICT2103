@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "840068178707",
+    "firebase_url": "https://sit-pal.firebaseio.com",
+    "project_id": "sit-pal",
+    "storage_bucket": "sit-pal.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:840068178707:android:b5272d033ec3b66d",
+        "android_client_info": {
+          "package_name": "com.sit.sitpal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "840068178707-g9unk51s1ut1k1qu4npsppc5gsf330ju.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYlVM-5m5j22JJ5l-I56u3QWnBOEUQtz8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="@string/nav_service">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_home"
+                    android:icon="@drawable/ic_menu_event"
+                    android:title="@string/nav_home" />
+                <item
+                    android:id="@+id/nav_healthcare"
+                    android:icon="@drawable/ic_menu_healthcare"
+                    android:title="@string/nav_healthcare" />
+                <item
+                    android:id="@+id/nav_books_booking"
+                    android:icon="@drawable/ic_menu_library"
+                    android:title="@string/nav_books_booking"/>
+                <item
+                    android:id="@+id/nav_my_qr"
+                    android:icon="@drawable/ic_menu_booking"
+                    android:title="@string/nav_my_code" />
+
+                <item
+                    android:id="@+id/nav_reporting"
+                    android:icon="@drawable/ic_menu_report"
+                    android:title="@string/nav_reporting" />
+                <item
+                    android:id="@+id/nav_chat"
+                    android:icon="@drawable/ic_chat"
+                    android:title="@string/nav_chat"/>
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="@string/nav_account">
+        <menu>
+            <group android:checkableBehavior="single">
+            <item
+                android:id="@+id/nav_account"
+                android:icon="@drawable/ic_menu_account"
+                android:title="@string/nav_account" />
+            <!--<item-->
+                <!--android:id="@+id/nav_password"-->
+                <!--android:icon="@drawable/ic_menu_lock"-->
+                <!--android:title="@string/nav_password" />-->
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_menu_exit"
+                android:title="@string/nav_logout" />
+            </group>
+        </menu>
+    </item>
+</menu>
